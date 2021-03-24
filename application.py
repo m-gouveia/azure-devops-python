@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1>Hola FIAP!</h1>\nMBA! v2 o/"
+    return "<h1>Hola FIAP! (Ambiente de Homologação) </h1>\nMBA! v1 o/"
