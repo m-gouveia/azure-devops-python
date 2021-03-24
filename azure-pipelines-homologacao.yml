@@ -11,19 +11,19 @@ variables:
   azureServiceConnectionId: '9ce251b7-3ba4-460e-a09a-cd9bc280cf9c'
 
   # Web app name
-  webAppName: 'fiapmauricio-pre'
+  webAppName: 'fiapmauricio'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'fiapmauricio-pre'
+  environmentName: 'fiapmauricio'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  # Python version: 3.7
-  pythonVersion: '3.7'
+  # Python version: 3.6
+  pythonVersion: '3.6'
 
 stages:
 - stage: Build
